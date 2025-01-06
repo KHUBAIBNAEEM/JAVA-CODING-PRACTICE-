@@ -1,10 +1,10 @@
 class Student {
-    String name;
+    String name;    // INITIALIZATION
     int rollNo;
     boolean isStudent;
 
     // Constructor for Student
-    public Student() {
+    Student() {          // DECLARE
         this.name = "Khubaib";
         this.rollNo = 12;
         this.isStudent = true;
@@ -17,6 +17,5 @@ public class ClassesDeclareInitiate{
         System.out.println(obj.name);
         System.out.println(obj.rollNo);
         System.out.println(obj.isStudent);
-        
     }
 }
